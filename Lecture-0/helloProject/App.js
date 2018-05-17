@@ -18,7 +18,7 @@ export default class App extends React.Component {
         <Text>Changes you make will automatically reload.</Text>
         <Text>Shake your phone to open the developer menu.</Text>
         <FlatList
-          data={[{key: 'a'}, {key: 'b'}]}
+          data={[{key: 'item 1'}, {key: 'item 2'}]}
           renderItem={(element) => this.renderItem(element)}
         >
         </FlatList>

@@ -7,6 +7,7 @@ export default class ListItem extends React.Component {
     this.state = {
       isPressed: false
     };
+    this.name = 'sishi'
   }
 
   render() {
@@ -15,11 +16,11 @@ export default class ListItem extends React.Component {
         style={this.state.isPressed ? styles.pressed : styles.cell}
         onPress={() => {
           this.setState({
-            isPressed: true
+            isPressed: !this.state.isPressed
           })
         }}
       >
-        <Text>{this.props.item.key}</Text>
+        <Text>{this.props.item.key + this.name}</Text>
       </TouchableOpacity>
     )
   }
