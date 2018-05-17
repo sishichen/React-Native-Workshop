@@ -1,7 +1,15 @@
 import React from 'react';
 import { FlatList, StyleSheet, Text, View, TouchableOpacity } from 'react-native';
+import ListItem from './ListItem';
 
 export default class App extends React.Component {
+
+  renderItem = (element) => (
+    <ListItem
+      item={element.item}
+    />
+  );
+
   render() {
     return (
       <View style={styles.container} serviceType={'food'}>
@@ -11,18 +19,13 @@ export default class App extends React.Component {
         <Text>Shake your phone to open the developer menu.</Text>
         <FlatList
           data={[{key: 'a'}, {key: 'b'}]}
-          renderItem={function(element) {
-            return <TouchableOpacity style={styles.cell} onPress={() => {
-              console.log(element)
-            }}><Text>{element.item.key}</Text></TouchableOpacity> 
-          }}
+          renderItem={(element) => this.renderItem(element)}
         >
         </FlatList>
       </View>
     );
   }
 }
-
 const styles = StyleSheet.create({
   container: {
     flex: 1,
