@@ -4,6 +4,9 @@ import { StyleSheet, Alert, Text, TouchableOpacity } from 'react-native';
 
 export default class ListItem extends React.Component {
   static propTypes = {
+    item: PropTypes.shape({
+      key: PropTypes.string
+    }),
     deleteItem: PropTypes.func.isRequired
   };
 
