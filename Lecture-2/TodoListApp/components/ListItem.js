@@ -1,14 +1,32 @@
 import React from 'react';
-import { FlatList, StyleSheet, Text, View, TouchableOpacity } from 'react-native';
+import PropTypes from 'prop-types';
+import { StyleSheet, Alert, Text, TouchableOpacity } from 'react-native';
 
 export default class ListItem extends React.Component {
+  static propTypes = {
+    deleteItem: PropTypes.func.isRequired
+  };
+
   constructor(props) {
     super(props);
     this.state = {
       isPressed: false
     };
-    this.name = 'sishi'
   }
+
+  onLongPress = () => {
+    Alert.alert(
+      'Delete Item',
+      'Are you sure?',
+      [
+        { text: 'Cancel' },
+        {
+          text: 'Delete',
+          onPress: () => this.props.deleteItem(this.props.item.key)
+        }
+      ]
+    );
+  };
 
   render() {
     return (
@@ -17,12 +35,13 @@ export default class ListItem extends React.Component {
         onPress={() => {
           this.setState({
             isPressed: !this.state.isPressed
-          })
+          });
         }}
+        onLongPress={this.onLongPress}
       >
-        <Text>{this.props.item.key + this.name}</Text>
+        <Text>{this.props.item.key}</Text>
       </TouchableOpacity>
-    )
+    );
   }
 }
 

@@ -4,9 +4,23 @@ import Expo from 'expo';
 import ListItem from './components/ListItem';
 
 export default class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      items: [{ key: 'item 1' }, { key: 'item 2' }]
+    };
+  }
+
+  deleteItem = key => {
+    this.setState({
+      items: this.state.items.filter(item => item.key !== key)
+    });
+  };
+
   renderItem = (element) => (
     <ListItem
       item={element.item}
+      deleteItem={this.deleteItem}
     />
   );
 
@@ -14,7 +28,7 @@ export default class App extends React.Component {
     return (
       <View style={styles.container}>
         <FlatList
-          data={[{ key: 'item 1' }, { key: 'item 2' }]}
+          data={this.state.items}
           renderItem={(element) => this.renderItem(element)}
         />
       </View>
