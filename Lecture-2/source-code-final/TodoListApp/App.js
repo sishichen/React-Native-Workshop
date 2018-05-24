@@ -7,7 +7,7 @@ export default class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      items: [{ key: 'item 1' }, { key: 'item 2' }],
+      items: [{ title: 'item 1' }, { title: 'item 2' }],
       addItemTextInputValue: ''
     };
   }
@@ -22,14 +22,14 @@ export default class App extends React.Component {
     if (!this.state.addItemTextInputValue) return;
 
     this.setState({
-      items: [...this.state.items, { key: this.state.addItemTextInputValue }],
+      items: [...this.state.items, { title: this.state.addItemTextInputValue }],
       addItemTextInputValue: ''
     });
   };
 
-  deleteItem = key => {
+  deleteItem = title => {
     this.setState({
-      items: this.state.items.filter(item => item.key !== key)
+      items: this.state.items.filter(item => item.title !== title)
     });
   };
 
@@ -45,7 +45,8 @@ export default class App extends React.Component {
       <View style={styles.container}>
         <FlatList
           data={this.state.items}
-          renderItem={(element) => this.renderItem(element)}
+          renderItem={element => this.renderItem(element)}
+          keyExtractor={item => item.title}
         />
         <View style={styles.addItemContainer}>
           <TextInput

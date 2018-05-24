@@ -2,10 +2,10 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { StyleSheet, Alert, Text, TouchableOpacity } from 'react-native';
 
-export default class ListItem extends React.Component {
+export default class ListItem extends React.PureComponent {
   static propTypes = {
     item: PropTypes.shape({
-      key: PropTypes.string
+      title: PropTypes.string
     }),
     deleteItem: PropTypes.func.isRequired
   };
@@ -25,13 +25,14 @@ export default class ListItem extends React.Component {
         { text: 'Cancel' },
         {
           text: 'Delete',
-          onPress: () => this.props.deleteItem(this.props.item.key)
+          onPress: () => this.props.deleteItem(this.props.item.title)
         }
       ]
     );
   };
 
   render() {
+    console.log('@@ rendor', this.props.item.title)
     return (
       <TouchableOpacity
         style={this.state.isPressed ? styles.pressed : styles.cell}
@@ -42,7 +43,7 @@ export default class ListItem extends React.Component {
         }}
         onLongPress={this.onLongPress}
       >
-        <Text>{this.props.item.key}</Text>
+        <Text>{this.props.item.title}</Text>
       </TouchableOpacity>
     );
   }
