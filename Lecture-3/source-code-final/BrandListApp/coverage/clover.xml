@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1527692571459" clover="3.2.0">
+  <project timestamp="1527692571459" name="All files">
+    <metrics statements="19" coveredstatements="13" conditionals="4" coveredconditionals="1" methods="12" coveredmethods="7" elements="35" coveredelements="21" complexity="0" loc="19" ncloc="19" packages="2" files="2" classes="2">
+      <package name="TodoListApp">
+        <metrics statements="14" coveredstatements="10" conditionals="2" coveredconditionals="0" methods="9" coveredmethods="6"/>
+        <file name="App.js" path="/Users/ethanchou/ReactNative/React-Native-Workshop/Lecture-3/source-code-final/TodoListApp/App.js">
+          <metrics statements="14" coveredstatements="10" conditionals="2" coveredconditionals="0" methods="9" coveredmethods="6"/>
+          <line num="8" count="2" type="stmt"/>
+          <line num="9" count="2" type="stmt"/>
+          <line num="16" count="1" type="stmt"/>
+          <line num="17" count="1" type="stmt"/>
+          <line num="18" count="1" type="stmt"/>
+          <line num="24" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="26" count="0" type="stmt"/>
+          <line num="33" count="0" type="stmt"/>
+          <line num="34" count="0" type="stmt"/>
+          <line num="39" count="4" type="stmt"/>
+          <line num="46" count="2" type="stmt"/>
+          <line num="50" count="4" type="stmt"/>
+          <line num="51" count="4" type="stmt"/>
+          <line num="71" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="TodoListApp.components">
+        <metrics statements="5" coveredstatements="3" conditionals="2" coveredconditionals="1" methods="3" coveredmethods="1"/>
+        <file name="ListItem.js" path="/Users/ethanchou/ReactNative/React-Native-Workshop/Lecture-3/source-code-final/TodoListApp/components/ListItem.js">
+          <metrics statements="5" coveredstatements="3" conditionals="2" coveredconditionals="1" methods="3" coveredmethods="1"/>
+          <line num="18" count="0" type="stmt"/>
+          <line num="25" count="0" type="stmt"/>
+          <line num="32" count="4" type="stmt"/>
+          <line num="33" count="4" type="stmt"/>
+          <line num="50" count="1" type="stmt"/>
+        </file>
+      </package>
+    </metrics>
+  </project>
+</coverage>
