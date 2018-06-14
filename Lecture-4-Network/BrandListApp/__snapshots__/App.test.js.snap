@@ -1,0 +1,1458 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "marginTop": 20,
+    }
+  }
+>
+  <RCTScrollView
+    data={
+      Array [
+        Object {
+          "about": null,
+          "brandColor": "",
+          "brandTraits": Array [],
+          "brandType": "regular",
+          "cashbackAmount": 0,
+          "closed": true,
+          "currency": "SGD",
+          "defaultConciergeFee": "0.0",
+          "defaultDeliveryFee": "10.0",
+          "deliveryTypes": Array [
+            "asap",
+            "scheduled",
+          ],
+          "description": null,
+          "estimatedDeliveryTime": 40,
+          "freeDeliveryEligible": true,
+          "id": 464,
+          "imageUrl": "https://assets-staging.honestbee.com/headers/images/360x120/standing-sushi-bar.png",
+          "itemReplacementOptions": Array [
+            "find_best_match",
+            "pick_specific_replacement",
+            "do_not_replace",
+          ],
+          "minimumOrderFreeDelivery": "600.0",
+          "minimumSpend": "15.0",
+          "minimumSpendExtraFee": "30.99",
+          "name": "Standing Sushi Bar",
+          "opensAt": "2018-05-31T00:00:00.000+08:00",
+          "parentBrandId": null,
+          "pricingType": "no_pricing_policy",
+          "productsCount": 55,
+          "productsImageUrl": "",
+          "promotionText": "",
+          "reservedTags": Array [
+            Object {
+              "id": 101,
+              "imageUrl": null,
+              "key": "habitat",
+              "title": "",
+            },
+            Object {
+              "id": 95,
+              "imageUrl": "https://assets.honestbee.com/food/tags/foodtag-sumo6.jpg",
+              "key": "cashback",
+              "title": "Eat More, Earn More",
+            },
+          ],
+          "sameStorePrice": null,
+          "serviceType": "food",
+          "shippingModes": Array [
+            "regular",
+          ],
+          "slug": "standing-sushi-bar",
+          "storeId": 613,
+          "tags": Array [],
+        },
+        Object {
+          "about": "TEXT",
+          "brandColor": "",
+          "brandTraits": Array [],
+          "brandType": "regular",
+          "cashbackAmount": 6.66,
+          "closed": true,
+          "currency": "SGD",
+          "defaultConciergeFee": "0.0",
+          "defaultDeliveryFee": "0.0",
+          "deliveryTypes": Array [
+            "asap",
+            "scheduled",
+          ],
+          "description": null,
+          "estimatedDeliveryTime": 40,
+          "freeDeliveryEligible": true,
+          "id": 917,
+          "imageUrl": "https://assets-staging.honestbee.com/headers/images/360x120/saladstop.png",
+          "itemReplacementOptions": Array [
+            "find_best_match",
+            "pick_specific_replacement",
+            "do_not_replace",
+          ],
+          "minimumOrderFreeDelivery": "0.0",
+          "minimumSpend": "15.0",
+          "minimumSpendExtraFee": "30.99",
+          "name": "SaladStop!",
+          "opensAt": "2018-05-31T00:00:00.000+08:00",
+          "parentBrandId": null,
+          "pricingType": "no_pricing_policy",
+          "productsCount": 55,
+          "productsImageUrl": "",
+          "promotionText": "",
+          "reservedTags": Array [
+            Object {
+              "id": 101,
+              "imageUrl": null,
+              "key": "habitat",
+              "title": "",
+            },
+            Object {
+              "id": 95,
+              "imageUrl": "https://assets.honestbee.com/food/tags/foodtag-sumo6.jpg",
+              "key": "cashback",
+              "title": "Eat More, Earn More",
+            },
+          ],
+          "sameStorePrice": null,
+          "serviceType": "food",
+          "shippingModes": Array [
+            "regular",
+          ],
+          "slug": "saladstop",
+          "storeId": 1358,
+          "tags": Array [],
+        },
+        Object {
+          "about": "Recharge your body and get to juicing! Sip on 100% cold-pressed with no sugar, water, or additives added to the juices. One step closer to a healthier lifestyle.",
+          "brandColor": "",
+          "brandTraits": Array [],
+          "brandType": "regular",
+          "cashbackAmount": 6,
+          "closed": true,
+          "currency": "SGD",
+          "defaultConciergeFee": "5.0",
+          "defaultDeliveryFee": "0.0",
+          "deliveryTypes": Array [
+            "asap",
+          ],
+          "description": "Recharge your body and get to juicing",
+          "estimatedDeliveryTime": 40,
+          "freeDeliveryEligible": true,
+          "id": 476,
+          "imageUrl": "https://assets-staging.honestbee.com/headers/images/360x120/j3-juice.png",
+          "itemReplacementOptions": Array [
+            "find_best_match",
+            "pick_specific_replacement",
+            "do_not_replace",
+          ],
+          "minimumOrderFreeDelivery": "0.0",
+          "minimumSpend": "15.0",
+          "minimumSpendExtraFee": "30.99",
+          "name": "J3 Juice",
+          "opensAt": "2018-05-31T00:00:00.000+08:00",
+          "parentBrandId": null,
+          "pricingType": "no_pricing_policy",
+          "productsCount": 24,
+          "productsImageUrl": "",
+          "promotionText": "",
+          "reservedTags": Array [
+            Object {
+              "id": 101,
+              "imageUrl": null,
+              "key": "habitat",
+              "title": "",
+            },
+            Object {
+              "id": 95,
+              "imageUrl": "https://assets.honestbee.com/food/tags/foodtag-sumo6.jpg",
+              "key": "cashback",
+              "title": "Eat More, Earn More",
+            },
+          ],
+          "sameStorePrice": null,
+          "serviceType": "food",
+          "shippingModes": Array [
+            "regular",
+          ],
+          "slug": "j3-juice",
+          "storeId": 625,
+          "tags": Array [
+            Object {
+              "id": 76,
+              "imageUrl": "https://assets.honestbee.com/food/tags/juice.jpg",
+              "key": "Juice",
+              "title": "",
+            },
+          ],
+        },
+        Object {
+          "about": null,
+          "brandColor": "",
+          "brandTraits": Array [
+            Object {
+              "header": "Food",
+              "imageUrlBasename": "",
+              "name": "Food",
+              "slug": "food",
+            },
+          ],
+          "brandType": "regular",
+          "cashbackAmount": 0,
+          "closed": true,
+          "currency": "SGD",
+          "defaultConciergeFee": null,
+          "defaultDeliveryFee": null,
+          "deliveryTypes": Array [
+            "asap",
+            "scheduled",
+          ],
+          "description": "used to check food+",
+          "estimatedDeliveryTime": 20,
+          "freeDeliveryEligible": true,
+          "id": 7749,
+          "imageUrl": "https://assets-staging.honestbee.com/headers/images/360x120/brandtest.png",
+          "itemReplacementOptions": Array [
+            "find_best_match",
+            "pick_specific_replacement",
+            "do_not_replace",
+          ],
+          "minimumOrderFreeDelivery": "0.0",
+          "minimumSpend": "15.0",
+          "minimumSpendExtraFee": "30.99",
+          "name": "Brand4Test",
+          "opensAt": "2018-05-31T09:00:00.000+08:00",
+          "parentBrandId": null,
+          "pricingType": "same_price_as_store",
+          "productsCount": 100,
+          "productsImageUrl": "https://assets-staging.honestbee.com/headers/images/360x120/product-list-brandtest.png",
+          "promotionText": "",
+          "reservedTags": Array [
+            Object {
+              "id": 101,
+              "imageUrl": null,
+              "key": "habitat",
+              "title": "",
+            },
+            Object {
+              "id": 95,
+              "imageUrl": "https://assets.honestbee.com/food/tags/foodtag-sumo6.jpg",
+              "key": "cashback",
+              "title": "Eat More, Earn More",
+            },
+          ],
+          "sameStorePrice": true,
+          "serviceType": "food",
+          "shippingModes": Array [
+            "regular",
+          ],
+          "slug": "brandtest",
+          "storeId": 10704,
+          "tags": Array [],
+        },
+        Object {
+          "about": null,
+          "brandColor": "",
+          "brandTraits": Array [],
+          "brandType": "regular",
+          "cashbackAmount": 0,
+          "closed": true,
+          "currency": "SGD",
+          "defaultConciergeFee": "0.0",
+          "defaultDeliveryFee": "0.0",
+          "deliveryTypes": Array [
+            "asap",
+            "scheduled",
+          ],
+          "description": "Good
+Awesome
+!!!!!!!!!!!!!!",
+          "estimatedDeliveryTime": 40,
+          "freeDeliveryEligible": true,
+          "id": 509,
+          "imageUrl": "https://assets-staging.honestbee.com/headers/images/360x120/folks-collective.png",
+          "itemReplacementOptions": Array [
+            "find_best_match",
+            "pick_specific_replacement",
+            "do_not_replace",
+          ],
+          "minimumOrderFreeDelivery": "0.0",
+          "minimumSpend": "15.0",
+          "minimumSpendExtraFee": "30.99",
+          "name": "Folks Collective",
+          "opensAt": "2018-05-31T09:00:00.000+08:00",
+          "parentBrandId": null,
+          "pricingType": "no_pricing_policy",
+          "productsCount": 119,
+          "productsImageUrl": "",
+          "promotionText": "",
+          "reservedTags": Array [
+            Object {
+              "id": 101,
+              "imageUrl": null,
+              "key": "habitat",
+              "title": "",
+            },
+            Object {
+              "id": 95,
+              "imageUrl": "https://assets.honestbee.com/food/tags/foodtag-sumo6.jpg",
+              "key": "cashback",
+              "title": "Eat More, Earn More",
+            },
+          ],
+          "sameStorePrice": null,
+          "serviceType": "food",
+          "shippingModes": Array [
+            "regular",
+          ],
+          "slug": "folks-collective",
+          "storeId": 712,
+          "tags": Array [],
+        },
+        Object {
+          "about": null,
+          "brandColor": "",
+          "brandTraits": Array [],
+          "brandType": "regular",
+          "cashbackAmount": 0,
+          "closed": true,
+          "currency": "SGD",
+          "defaultConciergeFee": "0.0",
+          "defaultDeliveryFee": "0.0",
+          "deliveryTypes": Array [
+            "asap",
+            "scheduled",
+          ],
+          "description": null,
+          "estimatedDeliveryTime": 69,
+          "freeDeliveryEligible": true,
+          "id": 1106,
+          "imageUrl": "https://assets-staging.honestbee.com/headers/images/360x120/laaf-coffee--bistro.png",
+          "itemReplacementOptions": Array [
+            "find_best_match",
+            "pick_specific_replacement",
+            "do_not_replace",
+          ],
+          "minimumOrderFreeDelivery": "0.0",
+          "minimumSpend": "15.0",
+          "minimumSpendExtraFee": "30.99",
+          "name": "LAAF COFFEE & BISTRO",
+          "opensAt": "2018-05-31T09:00:00.000+08:00",
+          "parentBrandId": null,
+          "pricingType": "no_pricing_policy",
+          "productsCount": 68,
+          "productsImageUrl": "",
+          "promotionText": "",
+          "reservedTags": Array [
+            Object {
+              "id": 101,
+              "imageUrl": null,
+              "key": "habitat",
+              "title": "",
+            },
+            Object {
+              "id": 95,
+              "imageUrl": "https://assets.honestbee.com/food/tags/foodtag-sumo6.jpg",
+              "key": "cashback",
+              "title": "Eat More, Earn More",
+            },
+          ],
+          "sameStorePrice": null,
+          "serviceType": "food",
+          "shippingModes": Array [
+            "regular",
+            "offline",
+          ],
+          "slug": "laaf-coffee--bistro",
+          "storeId": 1623,
+          "tags": Array [
+            Object {
+              "id": 39,
+              "imageUrl": "https://assets.honestbee.com/food/tags/coffee.jpg",
+              "key": "Coffee",
+              "title": "",
+            },
+          ],
+        },
+        Object {
+          "about": null,
+          "brandColor": "3b6143",
+          "brandTraits": Array [
+            Object {
+              "header": "Food",
+              "imageUrlBasename": "",
+              "name": "Food",
+              "slug": "food",
+            },
+          ],
+          "brandType": "regular",
+          "cashbackAmount": 0,
+          "closed": true,
+          "currency": "SGD",
+          "defaultConciergeFee": "0.0",
+          "defaultDeliveryFee": "20.0",
+          "deliveryTypes": Array [
+            "asap",
+            "scheduled",
+          ],
+          "description": "Eat well and feel good",
+          "estimatedDeliveryTime": 5,
+          "freeDeliveryEligible": true,
+          "id": 151,
+          "imageUrl": "https://s3-ap-southeast-1.amazonaws.com/honestbees/headers/images/360x120/salad-stop.png",
+          "itemReplacementOptions": Array [
+            "find_best_match",
+            "pick_specific_replacement",
+            "do_not_replace",
+          ],
+          "minimumOrderFreeDelivery": "100.0",
+          "minimumSpend": "15.0",
+          "minimumSpendExtraFee": "30.99",
+          "name": "Salad Stop",
+          "opensAt": "2018-05-31T09:00:00.000+08:00",
+          "parentBrandId": null,
+          "pricingType": "same_price_as_store",
+          "productsCount": 31,
+          "productsImageUrl": "https://s3-ap-southeast-1.amazonaws.com/honestbees/headers/images/360x80/product-list-salad-stop.png",
+          "promotionText": "",
+          "reservedTags": Array [
+            Object {
+              "id": 101,
+              "imageUrl": null,
+              "key": "habitat",
+              "title": "",
+            },
+            Object {
+              "id": 95,
+              "imageUrl": "https://assets.honestbee.com/food/tags/foodtag-sumo6.jpg",
+              "key": "cashback",
+              "title": "Eat More, Earn More",
+            },
+          ],
+          "sameStorePrice": true,
+          "serviceType": "food",
+          "shippingModes": Array [
+            "regular",
+          ],
+          "slug": "salad-stop",
+          "storeId": 178,
+          "tags": Array [
+            Object {
+              "id": 58,
+              "imageUrl": "https://assets.honestbee.com/food/tags/best value.jpg",
+              "key": "Japanese",
+              "title": "",
+            },
+            Object {
+              "id": 34,
+              "imageUrl": "https://assets.honestbee.com/food/tags/western.jpg",
+              "key": "Western",
+              "title": "Western",
+            },
+            Object {
+              "id": 51,
+              "imageUrl": "https://assets.honestbee.com/food/tags/salads.jpg",
+              "key": "Salads",
+              "title": "Salads",
+            },
+          ],
+        },
+        Object {
+          "about": null,
+          "brandColor": "",
+          "brandTraits": Array [],
+          "brandType": "regular",
+          "cashbackAmount": 0,
+          "closed": true,
+          "currency": "SGD",
+          "defaultConciergeFee": "0.0",
+          "defaultDeliveryFee": "0.0",
+          "deliveryTypes": Array [
+            "asap",
+            "scheduled",
+          ],
+          "description": null,
+          "estimatedDeliveryTime": 60,
+          "freeDeliveryEligible": true,
+          "id": 452,
+          "imageUrl": "https://assets-staging.honestbee.com/headers/images/360x120/sprout.png",
+          "itemReplacementOptions": Array [
+            "find_best_match",
+            "pick_specific_replacement",
+            "do_not_replace",
+          ],
+          "minimumOrderFreeDelivery": "0.0",
+          "minimumSpend": "15.0",
+          "minimumSpendExtraFee": "30.99",
+          "name": "Sprout",
+          "opensAt": "2018-05-31T11:00:00.000+08:00",
+          "parentBrandId": null,
+          "pricingType": "no_pricing_policy",
+          "productsCount": 58,
+          "productsImageUrl": "",
+          "promotionText": "",
+          "reservedTags": Array [
+            Object {
+              "id": 101,
+              "imageUrl": null,
+              "key": "habitat",
+              "title": "",
+            },
+            Object {
+              "id": 95,
+              "imageUrl": "https://assets.honestbee.com/food/tags/foodtag-sumo6.jpg",
+              "key": "cashback",
+              "title": "Eat More, Earn More",
+            },
+          ],
+          "sameStorePrice": null,
+          "serviceType": "food",
+          "shippingModes": Array [
+            "regular",
+          ],
+          "slug": "sprout",
+          "storeId": 594,
+          "tags": Array [],
+        },
+        Object {
+          "about": null,
+          "brandColor": null,
+          "brandTraits": Array [],
+          "brandType": "regular",
+          "cashbackAmount": 0,
+          "closed": true,
+          "currency": "SGD",
+          "defaultConciergeFee": "0.0",
+          "defaultDeliveryFee": "0.0",
+          "deliveryTypes": Array [
+            "asap",
+            "scheduled",
+          ],
+          "description": null,
+          "estimatedDeliveryTime": 25,
+          "freeDeliveryEligible": true,
+          "id": 3267,
+          "imageUrl": "https://assets-staging.honestbee.com/headers/images/360x120/rabbit-owl-depot--woodlands.png",
+          "itemReplacementOptions": Array [
+            "find_best_match",
+            "pick_specific_replacement",
+            "do_not_replace",
+          ],
+          "minimumOrderFreeDelivery": "0.0",
+          "minimumSpend": "15.0",
+          "minimumSpendExtraFee": "30.99",
+          "name": "Rabbit Owl Depot @ Woodlands",
+          "opensAt": "2018-05-31T11:00:00.000+08:00",
+          "parentBrandId": null,
+          "pricingType": "no_pricing_policy",
+          "productsCount": 29,
+          "productsImageUrl": null,
+          "promotionText": null,
+          "reservedTags": Array [
+            Object {
+              "id": 101,
+              "imageUrl": null,
+              "key": "habitat",
+              "title": "",
+            },
+            Object {
+              "id": 95,
+              "imageUrl": "https://assets.honestbee.com/food/tags/foodtag-sumo6.jpg",
+              "key": "cashback",
+              "title": "Eat More, Earn More",
+            },
+          ],
+          "sameStorePrice": null,
+          "serviceType": "food",
+          "shippingModes": Array [
+            "regular",
+          ],
+          "slug": "rabbit-owl-depot--woodlands",
+          "storeId": 4686,
+          "tags": Array [],
+        },
+        Object {
+          "about": null,
+          "brandColor": "",
+          "brandTraits": Array [],
+          "brandType": "regular",
+          "cashbackAmount": 6,
+          "closed": true,
+          "currency": "SGD",
+          "defaultConciergeFee": "0.0",
+          "defaultDeliveryFee": "0.0",
+          "deliveryTypes": Array [
+            "asap",
+            "scheduled",
+          ],
+          "description": null,
+          "estimatedDeliveryTime": 40,
+          "freeDeliveryEligible": true,
+          "id": 440,
+          "imageUrl": "https://assets-staging.honestbee.com/headers/images/360x120/xo-noodles.png",
+          "itemReplacementOptions": Array [
+            "find_best_match",
+            "pick_specific_replacement",
+            "do_not_replace",
+          ],
+          "minimumOrderFreeDelivery": "0.0",
+          "minimumSpend": "15.0",
+          "minimumSpendExtraFee": "30.99",
+          "name": "XO Noodles",
+          "opensAt": "2018-05-31T11:00:00.000+08:00",
+          "parentBrandId": null,
+          "pricingType": "no_pricing_policy",
+          "productsCount": 6,
+          "productsImageUrl": "",
+          "promotionText": "",
+          "reservedTags": Array [
+            Object {
+              "id": 101,
+              "imageUrl": null,
+              "key": "habitat",
+              "title": "",
+            },
+            Object {
+              "id": 95,
+              "imageUrl": "https://assets.honestbee.com/food/tags/foodtag-sumo6.jpg",
+              "key": "cashback",
+              "title": "Eat More, Earn More",
+            },
+          ],
+          "sameStorePrice": null,
+          "serviceType": "food",
+          "shippingModes": Array [
+            "regular",
+          ],
+          "slug": "xo-noodles",
+          "storeId": 570,
+          "tags": Array [
+            Object {
+              "id": 50,
+              "imageUrl": "https://assets.honestbee.com/food/tags/noodles.jpg",
+              "key": "Noodles",
+              "title": "Noodles",
+            },
+          ],
+        },
+        Object {
+          "about": null,
+          "brandColor": "",
+          "brandTraits": Array [],
+          "brandType": "regular",
+          "cashbackAmount": 0,
+          "closed": true,
+          "currency": "SGD",
+          "defaultConciergeFee": "0.0",
+          "defaultDeliveryFee": "0.0",
+          "deliveryTypes": Array [
+            "asap",
+            "scheduled",
+          ],
+          "description": null,
+          "estimatedDeliveryTime": 20,
+          "freeDeliveryEligible": true,
+          "id": 453,
+          "imageUrl": "https://assets-staging.honestbee.com/headers/images/360x120/ramen-bowl.png",
+          "itemReplacementOptions": Array [
+            "find_best_match",
+            "pick_specific_replacement",
+            "do_not_replace",
+          ],
+          "minimumOrderFreeDelivery": "0.0",
+          "minimumSpend": "15.0",
+          "minimumSpendExtraFee": "30.99",
+          "name": "Ramen BOWL",
+          "opensAt": "2018-05-31T11:00:00.000+08:00",
+          "parentBrandId": null,
+          "pricingType": "no_pricing_policy",
+          "productsCount": 15,
+          "productsImageUrl": "",
+          "promotionText": "",
+          "reservedTags": Array [
+            Object {
+              "id": 101,
+              "imageUrl": null,
+              "key": "habitat",
+              "title": "",
+            },
+            Object {
+              "id": 95,
+              "imageUrl": "https://assets.honestbee.com/food/tags/foodtag-sumo6.jpg",
+              "key": "cashback",
+              "title": "Eat More, Earn More",
+            },
+          ],
+          "sameStorePrice": null,
+          "serviceType": "food",
+          "shippingModes": Array [
+            "regular",
+            "merchant_delivery",
+          ],
+          "slug": "ramen-bowl",
+          "storeId": 595,
+          "tags": Array [
+            Object {
+              "id": 54,
+              "imageUrl": null,
+              "key": "Food",
+              "title": "",
+            },
+            Object {
+              "id": 58,
+              "imageUrl": "https://assets.honestbee.com/food/tags/best value.jpg",
+              "key": "Japanese",
+              "title": "",
+            },
+          ],
+        },
+      ]
+    }
+    disableVirtualization={false}
+    getItem={[Function]}
+    getItemCount={[Function]}
+    horizontal={false}
+    initialNumToRender={10}
+    invertStickyHeaders={undefined}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    numColumns={1}
+    onContentSizeChange={[Function]}
+    onEndReachedThreshold={2}
+    onLayout={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={Array []}
+    updateCellsBatchingPeriod={50}
+    viewabilityConfigCallbackPairs={Array []}
+    windowSize={21}
+  >
+    <View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "yellow",
+                "height": 160,
+                "justifyContent": "center",
+                "padding": 20,
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "borderWidth": 1,
+                  "fontSize": 20,
+                  "fontWeight": "bold",
+                }
+              }
+            >
+              圖片
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "borderWidth": 1,
+                "flexDirection": "row",
+                "height": 40,
+                "justifyContent": "space-between",
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "borderWidth": 1,
+                  "fontSize": 20,
+                  "fontWeight": "bold",
+                }
+              }
+            >
+              Standing Sushi Bar
+            </Text>
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "borderWidth": 1,
+                }
+              }
+            >
+              6%的反現
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "yellow",
+                "height": 160,
+                "justifyContent": "center",
+                "padding": 20,
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "borderWidth": 1,
+                  "fontSize": 20,
+                  "fontWeight": "bold",
+                }
+              }
+            >
+              圖片
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "borderWidth": 1,
+                "flexDirection": "row",
+                "height": 40,
+                "justifyContent": "space-between",
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "borderWidth": 1,
+                  "fontSize": 20,
+                  "fontWeight": "bold",
+                }
+              }
+            >
+              SaladStop!
+            </Text>
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "borderWidth": 1,
+                }
+              }
+            >
+              6%的反現
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "yellow",
+                "height": 160,
+                "justifyContent": "center",
+                "padding": 20,
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "borderWidth": 1,
+                  "fontSize": 20,
+                  "fontWeight": "bold",
+                }
+              }
+            >
+              圖片
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "borderWidth": 1,
+                "flexDirection": "row",
+                "height": 40,
+                "justifyContent": "space-between",
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "borderWidth": 1,
+                  "fontSize": 20,
+                  "fontWeight": "bold",
+                }
+              }
+            >
+              J3 Juice
+            </Text>
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "borderWidth": 1,
+                }
+              }
+            >
+              6%的反現
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "yellow",
+                "height": 160,
+                "justifyContent": "center",
+                "padding": 20,
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "borderWidth": 1,
+                  "fontSize": 20,
+                  "fontWeight": "bold",
+                }
+              }
+            >
+              圖片
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "borderWidth": 1,
+                "flexDirection": "row",
+                "height": 40,
+                "justifyContent": "space-between",
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "borderWidth": 1,
+                  "fontSize": 20,
+                  "fontWeight": "bold",
+                }
+              }
+            >
+              Brand4Test
+            </Text>
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "borderWidth": 1,
+                }
+              }
+            >
+              6%的反現
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "yellow",
+                "height": 160,
+                "justifyContent": "center",
+                "padding": 20,
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "borderWidth": 1,
+                  "fontSize": 20,
+                  "fontWeight": "bold",
+                }
+              }
+            >
+              圖片
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "borderWidth": 1,
+                "flexDirection": "row",
+                "height": 40,
+                "justifyContent": "space-between",
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "borderWidth": 1,
+                  "fontSize": 20,
+                  "fontWeight": "bold",
+                }
+              }
+            >
+              Folks Collective
+            </Text>
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "borderWidth": 1,
+                }
+              }
+            >
+              6%的反現
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "yellow",
+                "height": 160,
+                "justifyContent": "center",
+                "padding": 20,
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "borderWidth": 1,
+                  "fontSize": 20,
+                  "fontWeight": "bold",
+                }
+              }
+            >
+              圖片
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "borderWidth": 1,
+                "flexDirection": "row",
+                "height": 40,
+                "justifyContent": "space-between",
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "borderWidth": 1,
+                  "fontSize": 20,
+                  "fontWeight": "bold",
+                }
+              }
+            >
+              LAAF COFFEE & BISTRO
+            </Text>
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "borderWidth": 1,
+                }
+              }
+            >
+              6%的反現
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "yellow",
+                "height": 160,
+                "justifyContent": "center",
+                "padding": 20,
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "borderWidth": 1,
+                  "fontSize": 20,
+                  "fontWeight": "bold",
+                }
+              }
+            >
+              圖片
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "borderWidth": 1,
+                "flexDirection": "row",
+                "height": 40,
+                "justifyContent": "space-between",
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "borderWidth": 1,
+                  "fontSize": 20,
+                  "fontWeight": "bold",
+                }
+              }
+            >
+              Salad Stop
+            </Text>
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "borderWidth": 1,
+                }
+              }
+            >
+              6%的反現
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "yellow",
+                "height": 160,
+                "justifyContent": "center",
+                "padding": 20,
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "borderWidth": 1,
+                  "fontSize": 20,
+                  "fontWeight": "bold",
+                }
+              }
+            >
+              圖片
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "borderWidth": 1,
+                "flexDirection": "row",
+                "height": 40,
+                "justifyContent": "space-between",
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "borderWidth": 1,
+                  "fontSize": 20,
+                  "fontWeight": "bold",
+                }
+              }
+            >
+              Sprout
+            </Text>
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "borderWidth": 1,
+                }
+              }
+            >
+              6%的反現
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "yellow",
+                "height": 160,
+                "justifyContent": "center",
+                "padding": 20,
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "borderWidth": 1,
+                  "fontSize": 20,
+                  "fontWeight": "bold",
+                }
+              }
+            >
+              圖片
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "borderWidth": 1,
+                "flexDirection": "row",
+                "height": 40,
+                "justifyContent": "space-between",
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "borderWidth": 1,
+                  "fontSize": 20,
+                  "fontWeight": "bold",
+                }
+              }
+            >
+              Rabbit Owl Depot @ Woodlands
+            </Text>
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "borderWidth": 1,
+                }
+              }
+            >
+              6%的反現
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "yellow",
+                "height": 160,
+                "justifyContent": "center",
+                "padding": 20,
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "borderWidth": 1,
+                  "fontSize": 20,
+                  "fontWeight": "bold",
+                }
+              }
+            >
+              圖片
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "borderWidth": 1,
+                "flexDirection": "row",
+                "height": 40,
+                "justifyContent": "space-between",
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "borderWidth": 1,
+                  "fontSize": 20,
+                  "fontWeight": "bold",
+                }
+              }
+            >
+              XO Noodles
+            </Text>
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "borderWidth": 1,
+                }
+              }
+            >
+              6%的反現
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "height": 0,
+          }
+        }
+      />
+    </View>
+  </RCTScrollView>
+</View>
+`;
