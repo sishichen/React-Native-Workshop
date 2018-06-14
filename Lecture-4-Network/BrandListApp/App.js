@@ -2,11 +2,20 @@ import React from 'react';
 import { StyleSheet, FlatList, View } from 'react-native';
 import Expo from 'expo';
 import ListItem from './components/ListItem';
-import { mockBrands } from './seeds';
+import { asyncBrands } from './api';
 
 export default class App extends React.Component {
   state = {
-    items: mockBrands
+    brands: []
+  }
+
+  componentDidMount() {
+    this.getBrands();
+  }
+
+  getBrands = async () => {
+    const brands = await asyncBrands();
+    this.setState({ brands });
   }
 
   renderItem = (element) => (
@@ -19,7 +28,7 @@ export default class App extends React.Component {
     return (
       <View style={styles.container}>
         <FlatList
-          data={this.state.items}
+          data={this.state.brands}
           renderItem={element => this.renderItem(element)}
           keyExtractor={item => item.name}
         />
