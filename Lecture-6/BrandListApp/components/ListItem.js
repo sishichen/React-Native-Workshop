@@ -6,7 +6,7 @@ export default class ListItem extends React.PureComponent {
   static propTypes = {
     item: PropTypes.shape({
       name: PropTypes.string.isRequired,
-      imageUrl: PropTypes.string.isRequired,
+      imageUrl: PropTypes.string,
       tags: PropTypes.arrayOf(PropTypes.shape({
         id: PropTypes.number,
         key: PropTypes.string
