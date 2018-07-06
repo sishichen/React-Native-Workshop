@@ -26,6 +26,7 @@ export const setBrands = (brands) => ({
   }
 });
 
+// async action
 export const fetchBrandList = () => async (dispatch) => {
   dispatch(startLoading());
   const brands = await asyncBrands();
